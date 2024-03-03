@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+    font-family: 'Arizona';
+}
+
+
+@font-face {
+    font-family: 'Arizona';
+    src: url('/static/ABCArizonaSerif-Regular-Trial.woff2') format('woff2'),
+         url('/static/ABCArizonaSerif-Regular-Trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    /* add font-ABC in class to use */
+}
+
