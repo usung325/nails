@@ -4,16 +4,26 @@
 
 
 html {
-    font-family: 'Arizona';
+    font-family: 'terminal';
 }
 
+@font-face {
+	font-family: 'terminal';
+	font-style: normal;
+	/* font-weight: 4200; */
+	src: url('./fonts/bianzhidai_noBG-Stitches.woff') format('woff2');
+}
 
 @font-face {
-    font-family: 'Arizona';
-    src: url('/static/ABCArizonaSerif-Regular-Trial.woff2') format('woff2'),
-         url('/static/ABCArizonaSerif-Regular-Trial.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    /* add font-ABC in class to use */
+	font-family: 'picnic';
+	font-style: normal;
+	/* font-weight: 4200; */
+	src: url('./fonts/PicNic-Regular.woff2') format('woff2');
+}
+
+p {
+	font-family: 'picnic', serif;
+	/* font-weight: 10; */
+	/* font-size: 10em; */
 }
 

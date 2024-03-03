@@ -1,5 +1,11 @@
 <script>
+    import SectionWrapper from "./SectionWrapper.svelte";
+
 
 </script>
 
-<p>lmao</p>
+<SectionWrapper>
+    <p>How to Nail:</p>
+
+</SectionWrapper>
+

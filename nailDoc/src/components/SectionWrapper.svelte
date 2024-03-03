@@ -2,6 +2,11 @@
 
 </script>
 
-<div class="p-6">
+<section class="p-11">
     
-</div>
+    <div class="w-full height-auto">
+
+        <slot />
+
+    </div>
+</section>
