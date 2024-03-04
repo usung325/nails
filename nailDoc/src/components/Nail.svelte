@@ -5,7 +5,7 @@
 </script>
 
 <SectionWrapper>
-    <p>How to Nail:</p>
+    <p class="text-white">How to Nail:</p>
 
 </SectionWrapper>
 

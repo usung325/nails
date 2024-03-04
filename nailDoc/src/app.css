@@ -23,7 +23,18 @@ html {
 
 p {
 	font-family: 'picnic', serif;
+	font-size: 3em;
 	/* font-weight: 10; */
 	/* font-size: 10em; */
+}
+
+h1 {
+	font-family: 'terminal', sans-serif;
+	font-size: 1em;
+}
+
+span {
+	font-family:inherit;
+	font-size:inherit;
 }
 
